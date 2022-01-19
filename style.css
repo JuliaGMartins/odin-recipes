@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(124, 29, 42);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*
+# dont know why isnt working
+@font-face {
+    font-family: pressStart;
+    src: url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*/
+
+.recipes{
+    font-size: 20px;
+    color: wheat; 
+    font-family: 'Petit Formal Script', cursive;;
+    text-align: left;
+    margin-top: 50px;
+}
+
+/*Changing hyperlink color font*/
+a:visited{  
+    color: whitesmoke;  
+}  
+a:hover{  
+    color: rgb(241, 181, 101);  
+}  
+a:active{  
+    color: whitesmoke;  
+}  
+
+.title{
+    font-family: 'Rye', cursive;
+    font-size: 32px;
+    color: rgb(241, 181, 101);  
+}
+
+#gif{
+    border-style: double;
+    border-color: rgb(241, 181, 101); 
+    box-sizing: border-box;
+    border-width: 10px;
+    box-shadow: 0 0 2vw black;
+}
+
+#img{
+    border-style: double;
+    border-color: rgb(241, 181, 101); 
+    box-sizing: border-box;
+    border-width: 10px;
+    box-shadow: 0 0 2vw black;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.list{
+    color: whitesmoke;
+}
