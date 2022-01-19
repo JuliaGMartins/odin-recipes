@@ -25,7 +25,7 @@ body{
 
 /*Changing hyperlink color font*/
 a:visited{  
-    color: whitesmoke;  
+    color: rgba(197, 197, 197, 0.507);  
 }  
 a:hover{  
     color: rgb(241, 181, 101);  
@@ -33,6 +33,10 @@ a:hover{
 a:active{  
     color: whitesmoke;  
 }  
+
+a:link{
+    color: whitesmoke; 
+}
 
 .title{
     font-family: 'Rye', cursive;
