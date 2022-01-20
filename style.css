@@ -1,8 +1,8 @@
 body{
     background-color: rgb(124, 29, 42);
-    max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /*
@@ -18,9 +18,22 @@ body{
 .recipes{
     font-size: 20px;
     color: wheat; 
-    font-family: 'Petit Formal Script', cursive;;
+    font-family: 'Petit Formal Script', cursive;
+    margin-top: 50px;
+}
+
+.content {
+    font-size: 20px;
+    color: wheat; 
+    font-family: 'Petit Formal Script', cursive;
     text-align: left;
     margin-top: 50px;
+    text-align: center;
+}
+
+.small{
+    font-size: 10px;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 /*Changing hyperlink color font*/
@@ -41,7 +54,8 @@ a:link{
 .title{
     font-family: 'Rye', cursive;
     font-size: 32px;
-    color: rgb(241, 181, 101);  
+    color: rgb(241, 181, 101);
+    text-align: center;
 }
 
 #gif{
@@ -62,6 +76,34 @@ a:link{
     max-height: 600px;
 }
 
+#imgindex{
+    border-style:solid;
+    border-color: rgb(241, 181, 101); 
+    box-sizing: border-box;
+    border-width: 3px;
+    box-shadow: 0 0 2vw black;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .list{
     color: whitesmoke;
+}
+
+.title {
+    display: flex 1;
+    flex-direction: column;
+}
+
+.recipes {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.boxRecepies{
+    display: flex;
+    flex: 1 1 300px;
+    justify-content: center;
 }
